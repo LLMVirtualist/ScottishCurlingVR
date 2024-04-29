@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script type="module" src="./src/index.js"></script>
+
+    <link rel="stylesheet" href="./src/main.css" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Experiment</title>
+  </head>
+  <body id="index-body">
+    <h1>Experiment</h1>
+
+    <div class="container">
+      <div class="userId">
+        <label for="userId">User ID</label>
+        <input type="text" id="userId" name="userId" />
+      </div>
+
+      <div class="radio">
+        <input id="radio-1" name="radio" type="radio" value="A" checked />
+        <label for="radio-1" class="radio-label">A</label>
+      </div>
+
+      <div class="radio">
+        <input id="radio-2" name="radio" type="radio" value="B" />
+        <label for="radio-2" class="radio-label">B</label>
+      </div>
+
+      <div class="radio">
+        <input id="radio-3" name="radio" type="radio" value="C" />
+        <label for="radio-3" class="radio-label">C</label>
+      </div>
+
+      <div class="radio">
+        <input id="radio-4" name="radio" type="radio" value="D" />
+        <label for="radio-4" class="radio-label">D</label>
+      </div>
+    </div>
+    <button id="start" class="button b-dark">Start</button>
+  </body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "name": "TUM Experiment",
+  "short_name": "Experiment",
+  "lang": "en-US",
+  "start_url": " https://tum-experiment.vercel.app/",
+  "display": "fullscreen",
+  "theme_color": "#FF8833",
+  "ovr_package_name": "experiment.joscha0.com",
+  "icons": [
+    {
+      "src": "/logo.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "background_color": "#000"
+}
